@@ -1,0 +1,6 @@
+framework module DemoApp {
+  umbrella header "DemoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
