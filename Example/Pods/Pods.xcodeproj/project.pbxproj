@@ -10,7 +10,7 @@
 		392BDC61E4D99391A7A2F0A8F2AB8DFE /* Pods-DemoApp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB136721D33F706CB4ABCEF83C835C08 /* Pods-DemoApp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4517502E768FB6A1E8D136B04F634A94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7AC3EA7FB470D44E371957114C5AAD84 /* Pods-DemoApp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4786763252147505EE99CF493839E483 /* Pods-DemoApp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81ACC6181E4E1225001A2F03 /* Ryteworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ACC6171E4E1225001A2F03 /* Ryteworks.framework */; };
+		811501FE1E4F705400E2FDCB /* Ryteworks.framework in Sources */ = {isa = PBXBuildFile; fileRef = 81ACC6171E4E1225001A2F03 /* Ryteworks.framework */; };
 		83DDF31CCC6F1436525FB0E378B287C9 /* DemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8F1DD70892E49D79870D066936A923 /* DemoApp-dummy.m */; };
 		AF6BBB497C53A53D2370936B586E70BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		B604260008235458F2BAAE8C60F573FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -86,7 +86,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF6BBB497C53A53D2370936B586E70BA /* Foundation.framework in Frameworks */,
-				81ACC6181E4E1225001A2F03 /* Ryteworks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811501FE1E4F705400E2FDCB /* Ryteworks.framework in Sources */,
 				83DDF31CCC6F1436525FB0E378B287C9 /* DemoApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
